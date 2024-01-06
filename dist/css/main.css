@@ -1,0 +1,50 @@
+.center-dot {
+  position: relative;
+  text-align: center;
+}
+
+.center-dot::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #E2B048;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-dot hr {
+  border: none;
+  border-top: 1px solid white;
+}
+
+.avataruser_mobile {
+  display: flex;
+}
+
+.avataruser_mobile.hidden {
+  display: none;
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.card-texto {
+  white-space: normal !important;
+}
+
+.small-customBox {
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .25), 0 1px 3px rgba(0, 0, 0, .4);
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bg-dark-blue {
+  background-color: #023067;
+}
