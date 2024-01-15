@@ -49,6 +49,10 @@
   background-color: #023067;
 }
 
+.bg-accent-orange {
+  background-color: #f7be5e;
+}
+
 /* Effect breathe */
 .breathe-div {
   border: 1px solid #2b92d4;
